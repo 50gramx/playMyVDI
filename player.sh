@@ -34,7 +34,7 @@ else
 
   echo "\tCreating the alias"
   export ALIAS_COMMAND="sh $PlayMyVDI_DIR/player.sh"
-  echo "alias myvdi=$ALIAS_COMMAND" >~/Users/$USER/.bashrc
+  echo "alias myvdi=$ALIAS_COMMAND" >> /Users/$USER/.bashrc
 fi
 
 echo "Chromium Driver -- Check"
